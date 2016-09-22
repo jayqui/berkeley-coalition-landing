@@ -114,6 +114,19 @@ h6 {
     background-color: #f5dda0;
 }
 
+.content-section-d {
+    text-align: center;
+}
+
+#berkeley-vietnam, #cute-pig {
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+}
+
+#cute-pig {
+    margin-top: 12px;
+}
+
 main a {
     color: #254189;
 }
@@ -135,7 +148,7 @@ main h2 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/Desert_Road_blue.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -143,8 +156,18 @@ main h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
+    text-align: center;
 }
 
+.banner-text-div {
+    background-color: rgba(33,59,124,0.2);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.banner a {
+    color: #f5dda0;
+}
 .banner ul {
     margin-bottom: 0;
 }
