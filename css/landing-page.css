@@ -3,210 +3,160 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+body, html {
+  width: 100%;
+  height: 100%; }
 
-body,
-html {
-    width: 100%;
-    height: 100%;
-}
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700; }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
+hr {
+  border: #a72651; }
 
 .topnav {
-    font-size: 14px;
-}
+  font-size: 14px; }
 
 .lead {
-    font-size: 18px;
-    font-weight: 400;
-}
+  font-size: 18px;
+  font-weight: 400; }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: center;
-    color: #f5dda0;
-    background: url(../img/berkeley_blue_3.png) no-repeat center center;
-    background-size: cover;
-}
+  padding-top: 50px;
+  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 50px;
+  text-align: center;
+  color: #082765;
+  background: url(../img/animal-dog-pet-brown-1500.jpg) no-repeat top center;
+  background-size: cover; }
 
 .intro-message {
-    position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
-}
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%; }
 
 .intro-message-interior {
-    background-color: rgba(33,59,124,0.3);
-    border-radius: 20px;
-    padding: 5px;
-}
-
-.intro-message-interior > h1 {
+  padding: 15% 5px; }
+  .intro-message-interior > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
-}
+    font-size: 5em; }
 
-.intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-
-.intro-message-interior > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}
-
-@media(max-width:767px) {
-    .intro-message {
-        padding-bottom: 15%;
-    }
-
-    .intro-message > h1 {
-        font-size: 3em;
-    }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
-}
+hr {
+  width: 400px;
+  border: 1px solid #a72651; }
 
 .network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px; }
 
 .content-section-a {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
+  padding: 50px 0;
+  background-color: #f8f8f8; }
 
 .content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-    background-color: #f5dda0;
-}
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #eae6dd; }
 
 .content-section-d {
-    background-color: #f5dda0;
-}
-
-.content-section-d {
-    text-align: center;
-}
-
-#berkeley-vietnam, #cute-pig {
-    -webkit-filter: grayscale(70%);
-    filter: grayscale(70%);
-}
+  background-color: #eae6dd;
+  text-align: center; }
 
 #cute-pig {
-    margin-top: 12px;
-}
+  margin-top: 12px;
+  margin-bottom: 12px; }
 
 main a {
-    color: #254189;
-}
-
+  color: #a72651; }
 main h2 {
-    color: rgba(33,59,124, 1);
-}
+  color: #082765; }
 
 .section-heading {
-    margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
+  float: left;
+  width: 200px; }
+
+.contact-section-spacer {
+  width: 100%; }
 
 .banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/Desert_Road_blue.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.banner h2 {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../img/dignified-gorilla-1500.jpg) no-repeat center center;
+  background-size: cover; }
+  .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
-    text-align: center;
-}
-
-.banner-text-div {
-    background-color: rgba(33,59,124,0.2);
-    border-radius: 20px;
-    padding: 5px;
-}
+    text-align: center; }
 
 .banner a {
-    color: #f5dda0;
-}
+  color: #eae6dd; }
 .banner ul {
-    margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 .banner-social-buttons {
-    float: right;
-    margin-top: 0;
-}
+  float: right;
+  margin-top: 0; }
 
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/* RESPONSIVENESS SETTINGS */
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+@media (max-width: 1199px) {
+  .intro-header {
+    background: url(../img/animal-dog-pet-brown-cropped-1096.jpg) no-repeat top center; }
 
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
+  .intro-message-interior {
+    padding: 5px; }
 
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px; } }
+@media (max-width: 767px) {
+  .intro-message {
+    padding-bottom: 15%; }
+    .intro-message > h1 {
+      font-size: 3em; }
 
+  .intro-divider {
+    width: 100%; }
+
+  .banner {
+    background: url(../img/gorilla-wall-900.jpg) no-repeat center center; }
+
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em; }
+
+  ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0; }
     ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-}
-
+      margin-bottom: 0; } }
 footer {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
+  padding: 50px 0;
+  background-color: #f8f8f8; }
 
 p.copyright {
-    margin: 15px 0 0;
-}
+  margin: 15px 0 0; }
+
+/*# sourceMappingURL=landing-page.css.map */

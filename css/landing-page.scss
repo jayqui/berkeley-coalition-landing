@@ -1,0 +1,195 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+$kool-blue: #082765;
+$dog-collar-pink: #a72651;
+$main-accent: #eae6dd;
+$gentle-gray: #f8f8f8;
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+hr {
+  border: $dog-collar-pink;
+}
+
+.topnav {
+  font-size: 14px;
+}
+
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.intro-header {
+  padding-top: 50px;
+  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 50px;
+  text-align: center;
+  color: $kool-blue;
+  background: url(../img/animal-dog-pet-brown-1500.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.intro-message-interior {
+  padding: 15% 5px;
+  > h1 {
+    margin: 0;
+    font-size: 5em;
+  }
+}
+
+hr {
+  width: 400px;
+  border: 1px solid #a72651;
+}
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.content-section-a {
+  padding: 50px 0;
+  background-color: $gentle-gray;
+}
+
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: $main-accent;
+}
+
+.content-section-d {
+  background-color: $main-accent;
+  text-align: center;
+}
+
+#cute-pig {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+main {
+  a {
+    color: $dog-collar-pink;
+  }
+  h2 {
+    color: $kool-blue;
+  }
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+}
+
+.contact-section-spacer {
+  width: 100%;
+}
+
+.banner {
+  padding: 100px 0;
+  color: $gentle-gray;
+  background: url(../img/dignified-gorilla-1500.jpg) no-repeat center center;
+  background-size: cover;
+  h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+    text-align: center;
+  }
+}
+
+.banner {
+  a {
+    color: $main-accent;
+  }
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+
+/**//**//**//**//**//**//**/
+/* RESPONSIVENESS SETTINGS */
+/**//**//**//**//**//**//**/
+
+@media (max-width: 1199px) {
+  .intro-header {
+    background: url(../img/animal-dog-pet-brown-cropped-1096.jpg) no-repeat top center;
+  }
+  .intro-message-interior {
+    padding: 5px;
+  }
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro-message {
+    padding-bottom: 15%;
+    > h1 {
+      font-size: 3em;
+    }
+  }
+  .intro-divider {
+    width: 100%;
+  }
+  .banner {
+    background: url(../img/gorilla-wall-900.jpg) no-repeat center center;
+  }
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+footer {
+  padding: 50px 0;
+  background-color: $gentle-gray;
+}
+
+p.copyright {
+  margin: 15px 0 0;
+}
