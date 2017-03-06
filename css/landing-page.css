@@ -32,14 +32,12 @@ hr {
 
 .intro-message {
   position: relative;
-  padding-top: 20%;
-  padding-bottom: 20%; }
+  padding-top: 15%;
+  padding-bottom: 15%; }
 
-.intro-message-interior {
-  padding: 15% 5px; }
-  .intro-message-interior > h1 {
-    margin: 0;
-    font-size: 5em; }
+.intro-message-interior > h1 {
+  margin: 0;
+  font-size: 5em; }
 
 hr {
   width: 400px;
